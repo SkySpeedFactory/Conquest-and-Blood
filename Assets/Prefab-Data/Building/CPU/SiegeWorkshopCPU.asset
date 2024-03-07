@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaed2624c252ce44cad7db2d4f5b4577, type: 3}
+  m_Name: SiegeWorkshopCPU
+  m_EditorClassIdentifier: 
+  BuildingName: Siege Workshop
+  Sprite: {fileID: 0}
+  BuildingFaction: 2
+  MaxHealth: 2500
+  Armor: 0
+  CanRecruit: 0
+  HasTechnology: 0
+  HasStorage: 0
+  MaxBuildLimit: 0
+  Upgrades: []
+  AvailableUnits:
+  - {fileID: 2351350149950656359, guid: 433f39e7af146084292f601068d2589a, type: 3}
+  FoodCost: 0
+  GoldCost: 0
+  IronCost: 0
+  StoneCost: 200
+  WoodCost: 300

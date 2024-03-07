@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0cddd4e46f8ac4c8fbecdab2b0495b, type: 3}
+  m_Name: RTSControls
+  m_EditorClassIdentifier: 
+  TutorialTitle: RTS Controls
+  TutorialTextContent: 'Movement: WASD
+
+    Fast Movement: Hold-Left Shift + WASD
+
+    Camerarotation:
+    Q and E Key
+
+    Camerazoom: Mouse-Wheel
+
+    Reset Camera: Tab
+
+    Leave Tower:
+    P-Key
+
+    Select Unit: Left Mousebutton (Just for own Units and Buildings)
+
+    Multiselection:
+    Hold Left Shift and select unit with Left Mousebutton
+
+    Windowselection: Draw
+    window with Left Mousebutton
+
+'
+  TutorialPicture: {fileID: 21300000, guid: b2e6defeb94d2174892fd397433c60b3, type: 3}

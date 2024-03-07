@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb77f2eeb186a1f40a71fec76fdd87e1, type: 3}
+  m_Name: Archer
+  m_EditorClassIdentifier: 
+  UnitType: 0
+  UnitName: Bowman
+  Sprite: {fileID: 21300000, guid: dbef0a76fe3974542888e09e324d1836, type: 3}
+  MaxHealth: 80
+  MeleeDamage: 3
+  MeleeAttackRange: 5
+  RangeDamage: 10
+  RangeAttackRange: 50
+  Armor: 3
+  Speed: 7
+  Visibility: 60
+  CanHarvest: 0
+  CanBuild: 0
+  FoodCost: 10
+  GoldCost: 10
+  IronCost: 0
+  WoodCost: 30
+  UnitMilitaryPower: 10

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1020049884044717583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020049884044717581}
+  - component: {fileID: 1020049884044717580}
+  m_Layer: 0
+  m_Name: BuildSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020049884044717581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020049884044717583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1020049884044717580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020049884044717583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d56ca52dceb30468c5faa93026ee8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingsList:
+  - {fileID: 649152132199892207, guid: 210b1a4941bd6784d8a830bf7e383533, type: 3}
+  - {fileID: 3847719025681101117, guid: a1d67edc758eb3240bc703ef3335ca7f, type: 3}
+  - {fileID: 4762840272015363029, guid: 4f307158d637650469aef8c6292aff6d, type: 3}
+  - {fileID: 6860822990863242164, guid: 8faaefa7a871aec4daae2f19fbae98e8, type: 3}
+  - {fileID: 6041652022698950791, guid: 7f5e7881f614e3e47a6ff82b78ef5c58, type: 3}
+  - {fileID: 7787263631901893274, guid: 0fc5fbc2f8f84fa49891b1c622399846, type: 3}
+  - {fileID: 6140443999486299042, guid: 145950d5fc2f4984cb5685b15418f926, type: 3}
+  player: {fileID: 0}
+  townCenterData: {fileID: 11400000, guid: 55f1b1d498c24d34c8b268987140bb4b, type: 2}
+  farmData: {fileID: 11400000, guid: 8703e3576de957a4e9254b5d8bddf276, type: 2}
+  warehouseData: {fileID: 11400000, guid: 2d5c3a41c01c898449848b40bf4efa10, type: 2}
+  barracksData: {fileID: 11400000, guid: b5800f364db10a74e8c6619686932c35, type: 2}
+  forgeData: {fileID: 11400000, guid: 5889e4d3eb391af40bd9117ebbdb2566, type: 2}
+  mageTowerData: {fileID: 11400000, guid: 8767a74c98d5fb9458d257b0ec9f3f8f, type: 2}
+  siegeWorkshopData: {fileID: 11400000, guid: 4d11e67c7345b96438ab5de6d1c4c70f, type: 2}

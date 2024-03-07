@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaed2624c252ce44cad7db2d4f5b4577, type: 3}
+  m_Name: TownCenterCPU
+  m_EditorClassIdentifier: 
+  BuildingName: Town Center
+  Sprite: {fileID: 0}
+  BuildingFaction: 2
+  MaxHealth: 3000
+  Armor: 0
+  CanRecruit: 0
+  HasTechnology: 0
+  HasStorage: 1
+  StorageOffset: 25
+  MaxBuildLimit: 0
+  Upgrades: []
+  AvailableUnits:
+  - {fileID: 191493339772048487, guid: 7ff0425abaa65244a972f00f198f6a87, type: 3}
+  FoodCost: 0
+  GoldCost: 0
+  IronCost: 0
+  StoneCost: 0
+  WoodCost: 500
